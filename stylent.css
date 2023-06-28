@@ -1,0 +1,105 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: lightgrey;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ header {
+   background-color: brown;
+   color: black;
+   padding: 1px;
+   text-align: center;
+ }
+ 
+ nav {
+   background-color: grey;
+   padding: 10px;
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ nav ul li {
+   margin: 0 10px;
+ }
+ 
+ nav ul li a {
+   color: black;
+   text-decoration: none;
+   padding: 5px;
+ }
+ 
+ nav ul li a:hover {
+   background-color: brown;
+ }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: center;
+    gap: 10px;
+    
+ }
+
+ .watdoenwijopdecamping, .activiteiten{
+    border: 1px solid brown;
+    border-radius: 15px;
+    width: 49%;
+    text-align: center;
+    color: brown;
+
+ }
+
+ .altijdgezelligheid{
+    border: 1px solid brown;
+    border-radius: 15px;
+    width: 49%;
+    text-align: center;
+    color: brown;
+    align-items: center;
+
+
+ }
+
+ img{
+    width: 150px;
+    height: 100px;
+ }
+
+ footer {
+  background-color: brown;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info,
+.opening-hours {
+  flex: 1;
+}
+
+.contact-info h3,
+.opening-hours h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info p,
+.opening-hours p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
